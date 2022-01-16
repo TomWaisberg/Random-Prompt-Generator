@@ -3,7 +3,7 @@ function load_sentence(){
     "a chaotic", "a monstrous", "an idealistic", "a beautiful", "a magical"];
     var verb2_arr = ["red", "blue", "green", "rainbow colored", "colourful", "black", "gothic", "sparkly", "shimmering", "cold", "hot", 
     "blazing", "freezing", "screaming", "flamboyant", "vibrant"];
-    var noun_arr = ["superhero", "dog", "ghost", "man", "alien", "monster", "cat", "bird", "circle", "dodechahedron", "assasin", "entrepaneur", 
+    var noun_arr = ["superhero", "dog", "ghost", "man", "alien", "monster", "cat", "bird", "circle", "dodechahedron", "assasin", "entrepreneur", 
     "inventor", "genius", "slug", "programmer", "teacher", "student", "ceo", "sorcerer", "prince", "father"];
 
     a_verb = verb_arr[Math.floor(Math.random() * verb_arr.length)];
