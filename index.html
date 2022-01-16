@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<script type="text/javascript" src="app.js"></script>
+<script>
+    function sentence(){
+        document.getElementById('sentence').innerHTML = load_sentence();
+    }
+</script>
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <title>Random Prompt Generator</title>
+    <h1>Random Prompt Generator</h1>
+    <div class="center">
+        <button class="button button3" onclick="sentence()">Generate Idea</button>
+        <p id = 'sentence'></p>
+    </div>
+</body>
