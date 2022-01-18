@@ -2,9 +2,9 @@ body{
     background-color:palevioletred;
 }
 .center {
-    position: absolute;
-    top: 35%;
-    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
     text-align: center;
     font-size: 20px;
   }
